@@ -6,7 +6,7 @@
 /tags
 log/
 
-# vim swap files
+# vim files
 *.swp
 *.swo
 TAGS
@@ -21,6 +21,7 @@ cscope.files
 cscope.out
 cscope.in.out
 cscope.po.out
+Session.vim
 
 __pycache__
 
