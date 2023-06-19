@@ -102,10 +102,11 @@ if you want to build a dev build you can do the following after installing the d
 	$ cd build
 	$ cmake ..
 	$ make -j$(nproc)
+    $ cp -a bin/. ~/.local/bin/
 
-* The resulting executables can be found in `~/oxen-core/build/bin`
+* The resulting executables can be found in `~/local/bin`
 
-* Add `PATH="$PATH:$HOME/oxen-core/build/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/.local/bin"` to `.profile`
 
 * Run Oxen with `oxend --detach`
 
