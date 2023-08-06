@@ -104,7 +104,7 @@ if you want to build a dev build you can do the following after installing the d
 	$ make -j$(nproc)
     $ cp -a bin/. ~/.local/bin/
 
-* The resulting executables can be found in `~/local/bin`
+* The resulting executables can be found in `~/.local/bin`
 
 * Add `PATH="$PATH:$HOME/.local/bin"` to `.profile`
 
